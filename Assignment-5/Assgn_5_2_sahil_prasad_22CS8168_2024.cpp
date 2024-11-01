@@ -12,7 +12,7 @@ using namespace std;
 
 struct Node {
     int key;
-    Node* left;ī
+    Node* left;
     Node* right;
     Node* parent;
 
