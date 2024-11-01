@@ -47,7 +47,7 @@ void quickSort(int arr[], int start, int end){
 		return;
 	}
 	int part = partition(arr, start, end);
-    	quickSort(arr, start, part-1);
+    quickSort(arr, start, part-1);
 	quickSort(arr, part+1, end);
 }
 
